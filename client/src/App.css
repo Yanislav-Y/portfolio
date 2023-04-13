@@ -1,0 +1,118 @@
+.text-sm {
+    font-size: 1.1rem;
+}
+
+.text-md {
+    font-size: 1.7rem;
+}
+
+.text-lg {
+    font-size: 2.25rem;
+}
+
+.text-xlg {
+    font-size: 3.5rem;
+}
+
+.text-xxlg {
+    font-size: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--font-primary);
+}
+
+.font-2 {
+    font-family: 'Oxygen', sans-serif;
+    color: var(--font-secondary);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.text-warning {
+    color: var(--warning);
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.btn {
+    border: 2px solid var(--accent);
+    padding: 0.4rem 1.5rem;
+    border-radius: 1000px;
+    transition: transform 200ms ease-in-out, filter 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-sm {
+    gap: 15px;
+}
+
+.gap-md {
+    gap: 30px;
+}
+
+.gap-lg {
+    gap: 45px;
+}
+
+.bg-1 {
+    background-color: var(--primary);
+}
+
+.bg-2 {
+    background-color: var(--secondary);
+}
+
+.bg-3 {
+    background-color: var(--accent);
+}
+
+.cursor-p {
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    filter: brightness(0.95);
+    transform: scale(1.03);
+}
+
+.py-lg {
+    margin: 45px 0;
+}
