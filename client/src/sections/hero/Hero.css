@@ -1,0 +1,50 @@
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.hero h1 {
+    font-size: 5rem;
+}
+
+.testimonial-p {
+    width: 500px;
+}
+
+.star-div {
+    margin-bottom: 15px;
+}
+
+.floating-img {
+    border: 1px solid var(--text-primary);
+    box-shadow: 0 4px 10px var(--text-secondary);
+}
+
+.testimonial:hover .star-icon:nth-of-type(1) {
+    animation: bounce 200ms ease-in-out;
+}
+
+.testimonial:hover .star-icon:nth-of-type(2) {
+    animation: bounce 200ms 100ms ease-in-out;
+}
+
+.testimonial:hover .star-icon:nth-of-type(3) {
+    animation: bounce 200ms 200ms ease-in-out;
+}
+
+.testimonial:hover .star-icon:nth-of-type(4) {
+    animation: bounce 200ms 300ms ease-in-out;
+}
+
+.testimonial:hover .star-icon:nth-of-type(5) {
+    animation: bounce 200ms 400ms ease-in-out;
+}

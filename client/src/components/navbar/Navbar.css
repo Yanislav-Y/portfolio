@@ -1,0 +1,11 @@
+.header {
+    padding: 15px 30px;
+}
+
+.nav-text {
+    transition: color 200ms ease-in-out;
+}
+
+.nav-text:hover {
+    color: var(--text-primary);
+}

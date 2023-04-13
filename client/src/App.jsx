@@ -1,13 +1,15 @@
-import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
 import './App.css';
 import { Fragment } from 'react';
+import Navbar from './components/navbar/Navbar';
+import Hero from './sections/hero/Hero';
+import Benefits from './sections/benefits/Benefits';
 
 function App() {
   return (
     <Fragment>
-      <Header />
+      <Navbar />
       <Hero />
+      <Benefits />
     </Fragment>
   )
 };

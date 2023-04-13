@@ -1,0 +1,8 @@
+.btn {
+    transition: transform 200ms ease-in-out, filter 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    filter: brightness(0.95);
+}
