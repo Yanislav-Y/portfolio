@@ -1,0 +1,11 @@
+.footer p {
+    max-width: 650px;
+}
+
+.footer-icon {
+    color: var(--text-primary);
+}
+
+.regular-a {
+    color: #2200CC;
+}

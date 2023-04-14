@@ -1,0 +1,11 @@
+.project-card img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 700/480;
+    width: min(45%, 700px);
+}
+
+.project-card div {
+    width: min(600px, 40%);
+    margin-top: 15px;
+}

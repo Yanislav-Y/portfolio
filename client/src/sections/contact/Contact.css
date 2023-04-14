@@ -1,0 +1,30 @@
+.email-form {
+    z-index: 3;
+}
+
+.email-form input,
+.email-form textarea {
+    background: none;
+}
+
+.email-form,
+.form-container img {
+    height: 500px;
+}
+
+.email-form textarea {
+    resize: none;
+    width: 509px;
+}
+
+.email-form label {
+    margin-bottom: 5px;
+}
+
+.email-form:-webkit-autofill,
+.email-form:-webkit-autofill:hover,
+.email-form:-webkit-autofill:focus {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    background-color: var(--primary);
+}

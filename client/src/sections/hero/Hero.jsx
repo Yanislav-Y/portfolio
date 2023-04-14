@@ -4,11 +4,11 @@ import { CustomButtonFill, CustomButtonOutline } from '../../components/customBu
 
 export default function Hero() {
     return (
-        <section className="hero w-100 border-box flex flex-column justify-center align-center gap-lg py-section">
-            <h1 className='font-1 text-bold'>I Make Unique Websites<br />That Grow Your Brand</h1>
+        <section className="hero w-100 border-box flex flex-column justify-center align-center gap-lg py-top-section">
+            <h1 className='font-1 text-bold text-center'>I Make Unique Websites<br />That Grow Your Brand</h1>
             <div className='flex gap-md'>
                 <CustomButtonFill textSize='text-lg'>contact</CustomButtonFill>
-                <CustomButtonOutline textSize='text-lg'>see more</CustomButtonOutline>
+                <CustomButtonOutline textSize='text-lg'>explore</CustomButtonOutline>
             </div>
             <div className='testimonial text-center'>
                 <div className='star-div text-warning text-md'>
