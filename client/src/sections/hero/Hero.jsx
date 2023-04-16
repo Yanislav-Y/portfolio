@@ -23,7 +23,7 @@ export default function Hero() {
                     Amazing work! <span className='text-primary'>- Samantha</span>
                 </p>
             </div>
-            <img className='floating-img' width={1000} height={687} src={websitePlaceholder} alt="" />
+            <img className='floating-img' src={websitePlaceholder} alt="" />
         </section>
     );
 }

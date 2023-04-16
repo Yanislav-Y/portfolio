@@ -1,5 +1,6 @@
 .profile-picture {
-    height: 400px;
+    width: 80%;
+    max-width: 400px;
     aspect-ratio: 1;
     overflow: hidden;
     border-radius: 50%;
@@ -12,5 +13,16 @@
 }
 
 .profile-p {
-    max-width: 600px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.profile-p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -16px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-primary);
 }

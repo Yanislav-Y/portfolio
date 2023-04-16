@@ -7,14 +7,12 @@
     background: none;
 }
 
-.email-form,
 .form-container img {
-    height: 500px;
+    width: 420px;
 }
 
 .email-form textarea {
     resize: none;
-    width: 509px;
 }
 
 .email-form label {
@@ -27,4 +25,34 @@
     font-family: inherit !important;
     font-size: inherit !important;
     background-color: var(--primary);
+}
+
+@media only screen and (max-width: 1024px) {
+    .form-container {
+        gap: 45px;
+    }
+
+    .email-form {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container img {
+        width: 80%;
+    }
+
+    .email-form {
+        width: 80%;
+    }
+
+    .input-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-div div {
+        width: 100%;
+        align-items: stretch;
+    }
 }

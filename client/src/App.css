@@ -26,15 +26,15 @@
 }
 
 .text-sm {
-    font-size: 1.1rem;
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
 }
 
 .text-md {
-    font-size: 1.8rem;
+    font-size: clamp(1.1rem, 3vw, 1.8rem);
 }
 
 .text-lg {
-    font-size: 2.5rem;
+    font-size: clamp(1.3rem, 4.5vw, 2.5rem);
 }
 
 .text-regular {
@@ -103,6 +103,10 @@
 
 .p-xsm {
     padding: 7px;
+}
+
+.px-left-lg {
+    padding-left: 45px;
 }
 
 .px-lg {
@@ -214,4 +218,58 @@
 
 .clean-a {
     text-decoration: none;
+}
+
+.clean-a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+    .media-lg-flex-column {
+        flex-direction: column;
+    }
+
+    .media-lg-align-center {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gap-sm {
+        gap: 10px;
+    }
+
+    .gap-md {
+        gap: 20px;
+    }
+
+    .gap-lg {
+        gap: 30px;
+    }
+
+    .media-md-flex-column {
+        flex-direction: column;
+    }
+
+    .media-md-flex-column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .gap-sm {
+        gap: 8px;
+    }
+
+    .gap-md {
+        gap: 16px;
+    }
+
+    .gap-lg {
+        gap: 24px;
+    }
+
+    .media-sm-flex-column {
+        flex-direction: column;
+    }
 }

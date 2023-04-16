@@ -9,11 +9,11 @@ export default function About() {
         <Fragment>
             <section className="w-100 py-section bg-2">
                 <SectionTitle>Meet The Creator</SectionTitle>
-                <div className='flex justify-center align-center gap-lg'>
+                <div className='flex justify-center align-center gap-lg media-lg-flex-column'>
                     <div className='profile-picture bg-3'>
                         <img src={Myself} alt="" />
                     </div>
-                    <p className='profile-p font-2 text-sm'>
+                    <p className='profile-p font-2 text-sm relative'>
                         My name is Yanislav, or Yani. I specialize in web design & development.
                         <br /><br />
                         Whether you're a local animal charity or a large e-commerce store, I will work

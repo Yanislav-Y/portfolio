@@ -9,3 +9,15 @@
 .regular-a {
     color: #2200CC;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer p {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer p {
+        width: 90%;
+    }
+}

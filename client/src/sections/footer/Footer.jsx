@@ -12,10 +12,14 @@ export default function Footer() {
                 <a href="https://www.twitter.com/yanislav_dev" target='_blank'>
                     <i className="fa-brands fa-twitter text-lg footer-icon pointer"></i>
                 </a>
-                <i className="fa-solid fa-envelope text-lg footer-icon pointer"></i>
+                <a href="mailto:dev@yanislavyankov.com">
+                    <i className="fa-solid fa-envelope text-lg footer-icon pointer"></i>
+                </a>
             </div>
             <span className='font-2 text-sm'>
-                &copy; 2023 | <a href="" className='clean-a text-secondary'>Sitemap</a>
+                &copy; 2023 -&nbsp;
+                <a href="" className='clean-a text-secondary'>Privacy</a> |&nbsp;
+                <a href="" className='clean-a text-secondary'>Sitemap</a>
             </span>
         </footer>
     );

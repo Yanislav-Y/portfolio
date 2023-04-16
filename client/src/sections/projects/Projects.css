@@ -9,3 +9,33 @@
     width: min(600px, 40%);
     margin-top: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    .project-card {
+        align-items: center;
+    }
+
+    .project-card img,
+    .project-card div {
+        width: 80%;
+    }
+
+    .project-card p {
+        width: 70%;
+    }
+
+    .project-card div {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .project-card img,
+    .project-card p {
+        width: 90%;
+    }
+}

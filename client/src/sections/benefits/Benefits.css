@@ -41,3 +41,14 @@
     z-index: 0;
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 768px) {
+    .benefits-list {
+        width: 80%;
+    }
+
+    .financial-data {
+        width: 60%;
+        min-width: 270px;
+    }
+}

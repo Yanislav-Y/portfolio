@@ -28,7 +28,7 @@ export default function Projects() {
 
 function ProjectCard(props) {
     return (
-        <div className={`project-card w-100 flex justify-center align-start flex gap-lg ${props.direction}`}>
+        <div className={`project-card w-100 flex justify-center align-start flex gap-lg ${props.direction} media-md-flex-column`}>
             <img src={props.imageURL} alt="" className='floating-img' />
             <div className="flex flex-column align-start gap-sm">
                 <h3 className='font-1 text-bold text-md'>{props.projectName}</h3>

@@ -11,7 +11,7 @@ export default function Benefits() {
             <img className='wave' src={WaveUp} alt="" />
             <section className="benefits w-100 border-box py-section bg-2">
                 <SectionTitle>How I Help Brands Soar</SectionTitle>
-                <div className='flex justify-center align-center gap-lg'>
+                <div className='flex justify-center align-center gap-lg media-md-flex-column-reverse'>
                     <ul className='benefits-list border-box'>
                         <li className='relative'>
                             <h3 className='font-1 text-bold text-md relative'>Conversion Rates</h3>

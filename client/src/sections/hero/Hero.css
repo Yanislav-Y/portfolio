@@ -17,8 +17,13 @@
     line-height: 1.25em;
 }
 
+.testimonial {
+    width: 70%;
+    max-width: 500px;
+}
+
 .testimonial-p {
-    width: 500px;
+    width: 100%;
 }
 
 .star-div {
@@ -43,4 +48,28 @@
 
 .testimonial:hover .star-icon:nth-of-type(5) {
     animation: bounce 200ms 400ms ease-in-out;
+}
+
+.hero img {
+    width: 75%;
+    max-width: 1000px;
+    aspect-ratio: 1000/687;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 6.5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .hero h1 {
+        font-size: 7.7vw;
+    }
 }
