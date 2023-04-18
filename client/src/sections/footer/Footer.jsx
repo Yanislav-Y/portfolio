@@ -18,8 +18,8 @@ export default function Footer() {
             </div>
             <span className='font-2 text-sm'>
                 &copy; 2023 -&nbsp;
-                <a href="" className='clean-a text-secondary'>Privacy</a> |&nbsp;
-                <a href="" className='clean-a text-secondary'>Sitemap</a>
+                <a href="https://www.termsfeed.com/live/b306515f-c43e-453a-a3f0-616f64875469" target='_blank' className='clean-a text-secondary'>Privacy</a> |&nbsp;
+                <a href="https://yanislavyankov.me/sitemap.xml" target='_blank' className='clean-a text-secondary'>Sitemap</a>
             </span>
         </footer>
     );

@@ -9,7 +9,7 @@ export default function Benefits() {
     return (
         <Fragment>
             <img className='wave' src={WaveUp} alt="" />
-            <section className="benefits w-100 border-box py-section bg-2">
+            <section id='benefits' className="benefits w-100 border-box py-section bg-2">
                 <SectionTitle>How I Help Brands Soar</SectionTitle>
                 <div className='flex justify-center align-center gap-lg media-md-flex-column-reverse'>
                     <ul className='benefits-list border-box'>

@@ -7,7 +7,7 @@ import { Fragment } from 'react';
 export default function About() {
     return (
         <Fragment>
-            <section className="w-100 py-section bg-2">
+            <section id='about' className="w-100 py-section bg-2">
                 <SectionTitle>Meet The Creator</SectionTitle>
                 <div className='flex justify-center align-center gap-lg media-lg-flex-column'>
                     <div className='profile-picture bg-3'>

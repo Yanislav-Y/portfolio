@@ -20,7 +20,7 @@ export default function Contact() {
     }
 
     return (
-        <section className="w-100 py-bottom-section">
+        <section className="w-100 py-bottom-section" id='contact'>
             <SectionTitle>Get In Touch</SectionTitle>
             <div className="form-container flex justify-center align-center media-lg-flex-column">
                 <img src={Message} alt="" />

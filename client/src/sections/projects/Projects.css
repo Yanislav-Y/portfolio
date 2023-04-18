@@ -1,7 +1,7 @@
 .project-card img {
     object-fit: cover;
     object-position: center;
-    aspect-ratio: 700/480;
+    aspect-ratio: 1332/1132;
     width: min(45%, 700px);
 }
 

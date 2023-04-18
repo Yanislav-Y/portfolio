@@ -1,5 +1,22 @@
 .header {
     padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    background: linear-gradient(to bottom, #33333317, transparent);
+}
+
+.header .header-logo {
+    text-decoration: none;
 }
 
 .nav-text {

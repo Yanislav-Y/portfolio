@@ -254,6 +254,20 @@
     .media-md-flex-column-reverse {
         flex-direction: column-reverse;
     }
+
+    .py-section,
+    .py-top-section {
+        padding-top: 40px;
+    }
+
+    .py-section,
+    .py-bottom-section {
+        padding-bottom: 40px;
+    }
+
+    .mb-section {
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -271,5 +285,15 @@
 
     .media-sm-flex-column {
         flex-direction: column;
+    }
+
+    .py-section,
+    .py-top-section {
+        padding-top: 20px;
+    }
+
+    .py-section,
+    .py-bottom-section {
+        padding-bottom: 20px;
     }
 }
