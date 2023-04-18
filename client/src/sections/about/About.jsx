@@ -11,7 +11,7 @@ export default function About() {
                 <SectionTitle>Meet The Creator</SectionTitle>
                 <div className='flex justify-center align-center gap-lg media-lg-flex-column'>
                     <div className='profile-picture bg-3'>
-                        <img src={Myself} alt="" />
+                        <img src={Myself} alt="" loading='lazy' width='auto' height='auto' />
                     </div>
                     <p className='profile-p font-2 text-sm relative'>
                         My name is Yanislav, or Yani. I specialize in web design & development.
@@ -34,7 +34,7 @@ export default function About() {
                     </p>
                 </div>
             </section>
-            <img src={WaveDown} alt="" className='wave' />
+            <img src={WaveDown} alt="" className='wave' loading='lazy' width='auto' height='auto' />
         </Fragment>
     );
 }

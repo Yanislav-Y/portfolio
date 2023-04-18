@@ -23,7 +23,7 @@ export default function Contact() {
         <section className="w-100 py-bottom-section" id='contact'>
             <SectionTitle>Get In Touch</SectionTitle>
             <div className="form-container flex justify-center align-center media-lg-flex-column">
-                <img src={Message} alt="" />
+                <img src={Message} alt="" loading='lazy' width='auto' height='auto' />
                 <form ref={formRef} onSubmit={e => {
                     submitForm(e);
                 }}

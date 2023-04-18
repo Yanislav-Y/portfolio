@@ -8,7 +8,7 @@ import { Fragment } from 'react';
 export default function Benefits() {
     return (
         <Fragment>
-            <img className='wave' src={WaveUp} alt="" />
+            <img className='wave' src={WaveUp} alt="" loading='lazy' width='auto' height='auto' />
             <section id='benefits' className="benefits w-100 border-box py-section bg-2">
                 <SectionTitle>How I Help Brands Soar</SectionTitle>
                 <div className='flex justify-center align-center gap-lg media-md-flex-column-reverse'>
@@ -40,10 +40,11 @@ export default function Benefits() {
                             </p>
                         </li>
                     </ul>
-                    <img className='financial-data' src={FinancialData} alt="airplane" />
+                    <img className='financial-data' src={FinancialData} alt="airplane"
+                        loading='lazy' width='auto' height='auto' />
                 </div>
             </section>
-            <img className='wave' src={WaveDown} alt="" />
+            <img className='wave' src={WaveDown} alt="" loading='lazy' width='auto' height='auto' />
         </Fragment>
     );
 }

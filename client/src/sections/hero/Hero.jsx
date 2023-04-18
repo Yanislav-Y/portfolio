@@ -38,7 +38,7 @@ export default function Hero() {
                     Amazing work! <span className='text-primary'>- Samantha</span>
                 </p>
             </div> */}
-            <img className='floating-img' src={GhostwriterHero} alt="" />
+            <img className='floating-img' width='auto' height='auto' src={GhostwriterHero} alt="" />
         </section>
     );
 }
